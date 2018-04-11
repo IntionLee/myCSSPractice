@@ -1,0 +1,177 @@
+body {
+	font-size: small;
+	background: #fff;
+	color: #222;
+	max-width: 1920px;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	min-width: 980px;
+}
+
+nav {
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	top:-295px;
+
+}
+
+ul {
+	height: 100%;
+	list-style: none;
+	padding: 0 30px;
+	margin: 0;
+	float: right;
+	font-size: 13px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+li {
+	float: left;
+}
+
+input {
+	width: 503px;
+	height: 34px;
+	border: none;
+	margin: 5px 0 5px 5px;
+}
+.serchform {
+	width: 100%;
+	height: 129px;
+	position: absolute;
+	top: 311px;
+	margin: 0 auto;
+}
+
+.serch {
+	width: 584px;
+	height: 44px;
+	margin: -1px 0px 1px;
+	border: solid 1px white;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.main a {
+	margin: 0 auto;
+}
+
+.main {
+	height: 233;
+}
+
+.link {
+	padding-right: 15px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.link_btn {
+	padding-left: 15px;
+}
+
+.link_btn button {
+	width: auto;
+	height: 30px;
+	color: #fff;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	font-weight: bold;
+	line-height: 28px;
+	padding: 0 12px;
+	background-color: #4285f4;
+	letter-spacing: 0px;
+}
+
+.clear-float {
+	clear: both;
+}
+
+.logo {
+	height: 363px;
+	padding-bottom: 35px;
+	margin-top: 89px;
+}
+
+.logo img {
+	padding-top: 109px;
+}
+
+.center {
+	width:571px;
+	height: 258px;
+	margin: 0 auto;
+}
+.serch-btn {
+	width: 571px;
+	height: 58px;
+	margin: 0 auto;
+	padding-top: 18px;
+}
+
+.serch-btn button {
+	font-weight: bold;
+	height: 36px;
+	line-height: 27px;
+	margin: 11px 4px;
+	background-color: #f2f2f2;
+	border-color: #f2f2f2;
+	display: inline-block;
+	color: #757575;
+	text-align: center;
+	padding: 0 16px;
+	border-style: solid;
+}
+
+.footer {
+	font-size: 10pt;
+	height: 83px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin: 0 auto;
+	min-width: 980px;
+}
+
+.footbar {
+	width: 100%;
+	height: 82px;
+	background: #f2f2f2;
+	line-height: 40px;
+	min-width: 980px;
+	position: absolute;
+}
+
+.footline {
+	width: 100%;
+	height: 41px;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	color: rgba(0,0,0,.54);
+}
+.footline p {
+	margin: 0;
+	font-size: 15px;
+	padding-left: 27px;
+}
+.footline a {
+	color: rgba(0,0,0,.54);
+	padding-left: 27px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+	margin-right: 30px;
+}
