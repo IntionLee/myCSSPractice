@@ -1,0 +1,229 @@
+body {
+	max-width: 1920px;
+	background-color: white;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	color: rgb(167, 162, 156);
+}
+
+h1 {
+	font-size: 350%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 150%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 250%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+p {
+	color: rgb(196, 196, 196);
+	line-height: 2;
+}
+
+.main {
+	width:	100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cla1 {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10%; 
+} 
+
+.cla1 > img {
+	width: 60%;
+	height: 60%;
+	min-width: 500px;
+	min-height: auto;
+}
+
+.cla1-2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cla1-2 .cla1-icon{
+	flex: 0;
+	width: 27px;
+	align-self: flex-end;
+	margin-right: 30px;
+}
+
+.cla1-2 .cla1-content {
+	flex: 1;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.cla1-2 .cla1-content p {
+	flex: 0;
+	max-width: 85%;
+	margin: 0 0;
+}
+
+.cla1-2 .cla1-content img {
+	flex: 0;
+	width: 180px;
+	margin: 50px 0;
+}
+
+.cla2 {
+	width: 70%;
+	margin-left: 10%;
+	margin-right: 20%;
+	margin-top: 10%; 
+	margin-bottom: 5%; 
+}
+
+.cla3 {
+	width: 85%;
+	display: flex;
+	margin-left: 15%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+.cla3 div {
+	width: 45%;
+	margin-right: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.cla3 img {
+	width: 100%;
+	height: 100%;
+	min-width: 500px;
+	min-height: auto;
+}
+
+.cla4 {
+	width: 60%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+}
+
+.cla5 {
+	width: 60%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+.cla5 img {
+	width: 100%;
+}
+
+.cla5 .cla5-1 {
+	width: 45%;
+	margin-right: 10%;
+}
+
+.cla5 .cla5-2 {
+	width: 45%;
+	margin-bottom: -4%; 
+}
+
+.cla5 .cla5-3 {
+	width: 45%;
+	margin-top: -4%;
+}
+
+.cla5 .cla5-4 {
+	width: 45%;
+	margin-left: 10%;
+	align-self: flex-end;
+}
+
+.cla6 {
+	width: 100%;
+	background-color: rgb(244, 238, 231);
+	margin-top: 10%;
+	margin-bottom: 5%;
+	padding: 10% 0;
+}
+
+.cla6 h1 {
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+.cla6 p {
+	width: 100%;
+	text-align: center;
+}
+
+.cla6 img[alt="product5"] {
+	margin: 0 auto;
+	display: block;
+}
+
+.cla6 img[alt="play"] {
+	margin: 0 auto;
+	display: block;
+}
+
+.cla7 {
+	width: 60%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.cla7 img {
+	margin-top: 3%;
+}
+
+.footer {
+	width: 70%;
+	margin-top: 5%;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.footer .left {
+	width: 30%;
+	float: left;
+}
+
+.footer .right {
+	width: 30%;
+	float: right;
+	text-align: right;
+}
+
+.footer span {
+	color: rgb(255, 97, 69);
+}
