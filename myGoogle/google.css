@@ -67,7 +67,9 @@ input {
 }
 
 .main {
-	height: 233;
+	margin: 0 auto;
+	width: 584px;
+	height: 233px;
 }
 
 .link {
@@ -113,7 +115,7 @@ input {
 	margin: 0 auto;
 }
 .serch-btn {
-	width: 571px;
+	width: 206px;
 	height: 58px;
 	margin: 0 auto;
 	padding-top: 18px;
@@ -174,4 +176,13 @@ input {
 .right {
 	float: right;
 	margin-right: 30px;
+}
+.center {
+	width: 100%;
+}
+
+.center img {
+	display: block;
+	width: 272px;
+	margin: 0 auto;
 }
